@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de voluntário</h1>
+    </header>
+    <div>
+
+        <form action="#" method="post">
+            <div>
+                <h4>Dados Pessoais</h4>
+                <input type="text" id="nome" name="name" placeholder="Nome Completo" required><br><br>
+                <input type="email" id="email" name="email" placeholder="email" required><br><br>
+                <input type="localização" id="localização" name="localização" placeholder="localização" required><br><br>
+                <input type="telefone" id="telefone" name="telefone" placeholder="telefone para contato" required><br><br>
+            <div>
+            </div>
+                <h4>Nos conte um pouco sobre você</h4>
+               <textarea name="Descrição" id="Descrição" rows="10" required></textarea>
+           </div>
+    
+           <div>
+               <h4>Qual função você teria interesse?</h4>
+               <input type="checkbox" id="funcao1" name="funcao1" value="fotográfo">
+               <label for="funcao1">fotográfo</label> <br>
+               
+               <input type="checkbox" id="funcao2" name="funcao2" value="Videomaker">
+               <label for="funcao2">Videomaker</label> <br>
+               
+               <input type="checkbox" id="funcao3" name="funcao3" value="Recepcionista">
+               <label for="funcao3">Recepcionista</label> <br>
+               
+               <input type="checkbox" id="funcao4" name="funcao4" value="Monitor">
+               <label for="funcao4">Monitor</label> <br>
+           </div>
+    
+                <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>
